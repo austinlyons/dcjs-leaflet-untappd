@@ -8,7 +8,7 @@ Try out the demo [here](https://austinlyons.github.io/dcjs-leaflet-untappd)
 screenshot](img/demo.png)](https://austinlyons.github.io/dcjs-leaflet-untappd)
 
 # Tutorial
-Have you ever wished you could make a decent looking web-based data visualization? Are you a graduate student who wants to impress your advising professor and research team? Or an MBA who wants to go beyond Excel charts? Wish no longer.
+Have you ever wished you could make a decent looking web-based data visualization? Maybe you're a graduate student who wants to impress your advising professor and research team? Or an MBA who wants to go beyond Excel charts? Wish no longer.
 This tutorial assumes only rudimentary knowledge of HTML, CSS, and
 JavaScript. We'll start with the HTML & CSS, but if you want to skip down to the fun
 JavaScript stuff go right ahead. 
