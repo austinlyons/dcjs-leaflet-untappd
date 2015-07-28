@@ -4,7 +4,8 @@ Learn [dc.js](https://dc-js.github.io/dc.js/) and [leaflet.js](http://leafletjs.
 # Demo
 Try out the demo [here](https://austinlyons.github.io/dcjs-leaflet-untappd)
 
-![Demo screenshot](img/demo.png)
+[![Demo
+screenshot](img/demo.png)](https://austinlyons.github.io/dcjs-leaflet-untappd)
 
 # Tutorial
 Have you ever wished you could make a decent looking web-based data visualization? Wish no longer.
