@@ -1,5 +1,5 @@
 # Beer I've Been Drinking
-Learn [dc.js](https://dc-js.github.io/dc.js/) and [leaflet.js](http://leafletjs.com/) by visualizing [my](https://untappd.com/user/austinlyons) [Untappd](http://untappd.com) check-ins
+Learn [dc.js](https://dc-js.github.io/dc.js/), [Crossfilter](http://square.github.io/crossfilter/), and [leaflet.js](http://leafletjs.com/) by visualizing [my](https://untappd.com/user/austinlyons) [Untappd](http://untappd.com) check-ins
 
 # Demo
 Try out the demo [here](https://austinlyons.github.io/dcjs-leaflet-untappd)
