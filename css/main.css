@@ -9,7 +9,7 @@
 }
 
 .pie-chart {
-  height: 200px;
+  height: 150px;
 }
 
 .dc-chart .axis text{
@@ -21,7 +21,7 @@ text {
 }
 
 #map {
-  height: 200px;
+  height: 150px;
 }
 
 #control-row {

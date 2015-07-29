@@ -107,7 +107,7 @@ would look like:
 
 
 Why col-md-4 instead of col-4? What's the "md" all about? It has to do with
-responsive layouts, and "md" stands for medium. Check [the docs](http://getbootstrap.com/css/#grid-options)
+responsive layouts, and "md" stands for medium. Check [the docs](http://getbootstrap.com/examples/grid/)
 for more info.
 > Here ends the tiny grid tutorial. 
 
@@ -134,7 +134,7 @@ Below is all of the scaffolding HTML code. Notice the row and column spacing.
 ```html
 <div class="container-fluid">
   <div class="row">
-    <div class="col-md-12 dc-data-count dc-chart" id="data-count">
+    <div class="col-xs-12 dc-data-count dc-chart" id="data-count">
       <h2>Beer History
         <small>
           <span class="filter-count"></span> selected out of <span class="total-count"></span> records |
@@ -145,39 +145,39 @@ Below is all of the scaffolding HTML code. Notice the row and column spacing.
     </div>
   </div>
   <div class="row" id="control-row">
-    <div class="col-md-2 pie-chart">
+    <div class="col-xs-2 pie-chart">
       <h4>Year <small><a id="year">reset</a></small></h4>
       <div class="dc-chart" id="chart-ring-year"></div>
     </div>
-    <div class="col-md-2 pie-chart">
+    <div class="col-xs-2 pie-chart">
       <h4>Month <small><a id="month" href="#">reset</a></small></h4>
       <div class="dc-chart" id="chart-ring-month"></div>
     </div>
-    <div class="col-md-2 pie-chart">
+    <div class="col-xs-2 pie-chart">
       <h4>Day <small><a id="day">reset</a></small></h4>
       <div id="chart-ring-day" class="dc-chart"></div>
     </div>
-    <div class="col-md-6">
+    <div class="col-xs-6">
       <h4>Breweries</h4>
       <div id="map"></div>
     </div>
   </div>
   <div class="row">
-    <div class="col-md-3">
+    <div class="col-xs-6 col-md-3">
       <div class="dc-chart" id="chart-rating-count"></div>
     </div>
-    <div class="col-md-3">
+    <div class="col-xs-6 col-md-3">
       <div class="dc-chart" id="chart-community-rating-count"></div>
     </div>
-    <div class="col-md-3">
+    <div class="col-xs-6 col-md-3">
       <div class="dc-chart" id="chart-abv-count"></div>
     </div>
-    <div class="col-md-3">
+    <div class="col-xs-6 col-md-3">
       <div class="dc-chart" id="chart-ibu-count"></div>
     </div>
   </div>
   <div class="row">
-    <div class="col-md-12">
+    <div class="col-xs-12">
       <table class="table table-bordered table-striped" id="data-table">
         <thead>
           <tr class="header">
@@ -375,8 +375,8 @@ leftmost element in the second row.
 
 ```javascript
 yearChart
-    .width(200)
-    .height(200)
+    .width(150)
+    .height(150)
     .dimension(yearDim)
     .group(countPerYear)
     .innerRadius(20);
@@ -393,8 +393,8 @@ instructs dc how to order the months when creating the pie chart.
 
 ```javascript
 monthChart
-    .width(200)
-    .height(200)
+    .width(150)
+    .height(150)
     .dimension(monthDim)
     .group(countPerMonth)
     .innerRadius(20)
@@ -421,8 +421,8 @@ that the custom ordering function is updated accordingly.
 
 ```javascript
 dayChart
-    .width(200)
-    .height(200)
+    .width(150)
+    .height(150)
     .dimension(dayOfWeekDim)
     .group(countPerDay)
     .innerRadius(20)
@@ -447,7 +447,7 @@ with the chart that depicts the count of beers for each of my ratings.
 ```javascript
   ratingCountChart
       .width(300)
-      .height(200)
+      .height(180)
       .dimension(ratingDim)
       .group(countPerRating)
       .x(d3.scale.linear().domain([0,5.2]))
@@ -479,7 +479,7 @@ same as the previous chart.
 ```javascript
 commRatingCountChart
     .width(300)
-    .height(200)
+    .height(180)
     .dimension(commRatingDim)
     .group(countPerCommRating)
     .x(d3.scale.linear().domain([0,5.2]))
@@ -514,7 +514,7 @@ each side to make the chart look nicer.
 ```javascript
 abvCountChart
     .width(300)
-    .height(200)
+    .height(180)
     .dimension(abvDim)
     .group(countPerABV)
     .x(d3.scale.linear().domain([-0.2, d3.max(beerData, function (d) { return d.beer.beer_abv; }) + 0.2]))
@@ -537,7 +537,7 @@ nicer.
 ```javascript
 ibuCountChart
     .width(300)
-    .height(200)
+    .height(180)
     .dimension(ibuDim)
     .group(countPerIBU)
     .x(d3.scale.linear().domain([-2, d3.max(beerData, function (d) { return d.beer.beer_ibu; }) + 2]))
@@ -626,7 +626,7 @@ to dynamically display the number of selected check-ins and the total number
 of check-ins at the top of the visualization. 
 
 ```html
-<div class="col-md-12 dc-data-count dc-chart" id="data-count">
+<div class="col-xs-12 dc-data-count dc-chart" id="data-count">
   <h2>Beer History
     <small>
       <span class="filter-count"></span> selected out of <span class="total-count"></span> records |
@@ -657,7 +657,7 @@ click handlers to reset the respective charts via
 For each chart we'll add reset links like this:
 
 ```html
-<div class="col-md-2 pie-chart">
+<div class="col-xs-2 pie-chart">
   <h4>Year <small><a id="year">reset</a></small></h4>
   <div class="dc-chart" id="chart-ring-year"></div>
 </div>
