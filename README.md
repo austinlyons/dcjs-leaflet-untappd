@@ -1,5 +1,5 @@
 # Beer I've Been Drinking
-Learn [dc.js](https://dc-js.github.io/dc.js/), [Crossfilter](http://square.github.io/crossfilter/), and [leaflet.js](http://leafletjs.com/) by visualizing [my](https://untappd.com/user/austinlyons) [Untappd](http://untappd.com) check-ins
+Learn [dc.js](https://dc-js.github.io/dc.js/), [Crossfilter](http://square.github.io/crossfilter/), and [Leaflet](http://leafletjs.com/) by visualizing [my](https://untappd.com/user/austinlyons) [Untappd](http://untappd.com) check-ins
 
 # Demo
 Try out the demo [here](https://austinlyons.github.io/dcjs-leaflet-untappd)
@@ -78,8 +78,7 @@ Next, we'll add all of the HTML scaffolding, adhering to the Bootstrap
 ### Tiny Bootstrap Grid Tutorial
 > Skip this if you already grok Bootstrap
 
-The Bootstrap grid documentation is a bit overwhelming for a new person, 
-so here's a brief summary.
+If you've never seen Bootstrap before, here's a brief summary of how it's grid layouts work.
 
 In this "grid" way of doing things, we simply think of positioning our elements
 one row at a time, where each row can be divvied up into 12 columns. 
