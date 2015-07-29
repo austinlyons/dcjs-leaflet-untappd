@@ -1,5 +1,5 @@
 # Beer I've Been Drinking
-Learn [dc.js](https://dc-js.github.io/dc.js/) and [leaflet.js](http://leafletjs.com/) by visualizing [my](https://untappd.com/user/austinlyons) [Untappd](http://untappd.com) check-ins
+Learn [dc.js](https://dc-js.github.io/dc.js/), [Crossfilter](http://square.github.io/crossfilter/), and [leaflet.js](http://leafletjs.com/) by visualizing [my](https://untappd.com/user/austinlyons) [Untappd](http://untappd.com) check-ins
 
 # Demo
 Try out the demo [here](https://austinlyons.github.io/dcjs-leaflet-untappd)
@@ -8,8 +8,9 @@ Try out the demo [here](https://austinlyons.github.io/dcjs-leaflet-untappd)
 screenshot](img/demo.png)](https://austinlyons.github.io/dcjs-leaflet-untappd)
 
 # Tutorial
-Have you ever wished you could make a decent looking web-based data visualization? Wish no longer.
-This tutorial assumes only rudimentary knowledge of HTML, CSS, and
+Have you ever wished you could make a decent looking web-based data visualization? Maybe you're a graduate student who wants to impress your advising professor and research team or an MBA who wants to go beyond Excel charts. This tutorial is for you.
+
+I assume only rudimentary knowledge of HTML, CSS, and
 JavaScript. We'll start with the HTML & CSS, but if you want to skip down to the fun
 JavaScript stuff go right ahead. 
 
