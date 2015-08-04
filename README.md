@@ -216,7 +216,7 @@ related code.
 if you've never seen it before. [Go read about it](http://underscorejs.org/). It's very useful.
 
 ### Parsing data
-We begin by reading all of the JSON data from `untappd.json` using `d3.json`.
+We begin by reading all of the JSON data from `untappd.json` using [`d3.json`](https://github.com/mbostock/d3/wiki/Requests#d3_json).
 Before setting up any of the charting code, we preprocess the data we've
 read so that it's in the format dc.js expects. We convert string
 representation of numbers into actual numbers using the `+` operator
