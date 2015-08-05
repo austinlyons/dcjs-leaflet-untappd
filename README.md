@@ -8,7 +8,7 @@ Try out the demo [here](https://austinlyons.github.io/dcjs-leaflet-untappd)
 screenshot](img/demo.png)](https://austinlyons.github.io/dcjs-leaflet-untappd)
 
 # Tutorial
-Have you ever wished you could make a decent looking web-based data visualization? Maybe you're a graduate student who wants to impress your advising professor and research team or an MBA who wants to go beyond Excel charts. This tutorial is for you.
+Have you ever wished you could make a decent looking web-based data visualization? Maybe you're a UI/UX designer who wants to get beyond static wireframs, a graduate student who wants to impress your advising professor and research team, or an MBA who wants to go beyond Excel charts. This tutorial is for you.
 
 I assume only rudimentary knowledge of HTML, CSS, and
 JavaScript. We'll start with the HTML & CSS, but if you want to skip down to the fun
@@ -24,12 +24,12 @@ that we'll use to create interactive charts and a corresponding table.
 It's built upon [d3](http://d3js.org/) and [crossfilter](http://square.github.io/crossfilter/), 
 helps us to build simple charts quickly, and looks pretty good right out of the box. 
 
-[leaflet.js](http://leafletjs.com/) will be used to create an interactive map. 
+[Leaflet](http://leafletjs.com/) will be used to create an interactive map. 
 Leaflet is easy to use and plays nicely with [Mapbox](https://www.mapbox.com/editor/#style) tiles,
 which are a customizable and fun alternative to using Google Maps.
 
 ## Data
-The visualization will use my actual Untapped check-in data. I
+The visualization will use my actual Untappd check-in data. I
 downloaded my beer drinking history via the Untappd API and put it into a JSON file
 that you can access [here](untappd.json). 
 
