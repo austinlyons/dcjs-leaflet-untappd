@@ -100,7 +100,8 @@ d3.json('untappd.json', function (error, data) {
   var dayOfWeekFormat = d3.time.format('%a');
 
   // normalize/parse data so dc can correctly sort & bin them
-  beerData.forEach(function(d) {
+  // I like to think of each "d" as a row in a spreadsheet
+  _.each(beerData, function(d) {
     d.count = +d.count;
     // round to nearest 0.25
     d.rating_score = Math.round(+d.rating_score * 4) / 4;
