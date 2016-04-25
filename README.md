@@ -599,7 +599,7 @@ the order of the accessor functions we pass into the `columns` method.
 The `group` method call here is weird. 
 The data table object expects group to be
 [given a function that returns a
-string](https://dc-js.github.io/dc.js/docs/stock.html#section-52), 
+string](https://dc-js.github.io/dc.js/docs/stock.html#section-92), 
 and then injects the string into the first row of the table.
 ![Yuck](img/table-with-first-row.png)
 I'm not a fan of how it looks, so we'll use a
