@@ -621,7 +621,7 @@ We configure the table to be sorted by rating score descending, using
 
 #### Data Count
 We use the [data count
-widget](https://github.com/dc-js/dc.js/blob/master/web/docs/api-latest.md#data-count-widget)
+widget](https://github.com/dc-js/dc.js/blob/master/web/docs/api-latest.md#dc.dataCount)
 to dynamically display the number of selected check-ins and the total number
 of check-ins at the top of the visualization. 
 
