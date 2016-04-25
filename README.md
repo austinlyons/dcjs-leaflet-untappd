@@ -699,7 +699,7 @@ line of code makes the magic happen:
 interactive maps. Since we have some empty real estate 
 at the top right of the screen and
 coordinates for the brewery that made each beer I checked-in, 
-lets add a Leaflet map to our visualization. 
+let's add a Leaflet map to our visualization. 
 
 We included leaflet.js already:
 
