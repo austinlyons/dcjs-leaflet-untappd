@@ -616,7 +616,7 @@ Also, notice we [use d3 to select and
 operate](https://github.com/mbostock/d3/wiki/Selections) on DOM elements 
 instead of using jQuery: `table.select('tr.dc-table-group').remove();`
 
-We configure the chart to be sorted by rating score descending, using
+We configure the table to be sorted by rating score descending, using
 `dc.pluck` as a short-hand for `function(d) { return d.rating_score; }`.
 
 #### Data Count
