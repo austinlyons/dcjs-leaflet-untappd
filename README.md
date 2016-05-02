@@ -599,7 +599,7 @@ the order of the accessor functions we pass into the `columns` method.
 The `group` method call here is weird. 
 The data table object expects group to be
 [given a function that returns a
-string](https://dc-js.github.io/dc.js/docs/stock.html#section-52), 
+string](https://dc-js.github.io/dc.js/docs/stock.html#section-92), 
 and then injects the string into the first row of the table.
 ![Yuck](img/table-with-first-row.png)
 I'm not a fan of how it looks, so we'll use a
@@ -616,12 +616,12 @@ Also, notice we [use d3 to select and
 operate](https://github.com/mbostock/d3/wiki/Selections) on DOM elements 
 instead of using jQuery: `table.select('tr.dc-table-group').remove();`
 
-We configure the chart to be sorted by rating score descending, using
+We configure the table to be sorted by rating score descending, using
 `dc.pluck` as a short-hand for `function(d) { return d.rating_score; }`.
 
 #### Data Count
 We use the [data count
-widget](https://github.com/dc-js/dc.js/blob/master/web/docs/api-latest.md#data-count-widget)
+widget](https://github.com/dc-js/dc.js/blob/master/web/docs/api-latest.md#dc.dataCount)
 to dynamically display the number of selected check-ins and the total number
 of check-ins at the top of the visualization. 
 
@@ -699,7 +699,7 @@ line of code makes the magic happen:
 interactive maps. Since we have some empty real estate 
 at the top right of the screen and
 coordinates for the brewery that made each beer I checked-in, 
-lets add a Leaflet map to our visualization. 
+let's add a Leaflet map to our visualization. 
 
 We included leaflet.js already:
 
